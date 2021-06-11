@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	/* color: MI COLOR O IMAGEN; */
+	color: white;
+	/* background: MI COLOR O IMAGEN; */
+	background: blue;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+/* todo el formulario */
+#formulario {
+	background: white;
+	text-align: center;
+}
+
+#formulario h3 {
+	color: orange;
+}
+
+#formulario h4 {
+	color: #A4B8B7;
+}
+
+fieldset {
+	border: medium none !important;
+	
+}
+
+#formulario .entrada {
+	border: medium;
+}
+
+#formulario textarea {
+	height: 100px;
+}
+
+#formulario button {
+	cursor:pointer;
+	
+}
